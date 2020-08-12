@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Pocket Library</string>
+    <string name="no_books">No books found.</string>
+    <string name="no_internet_connection">No Internet connection.</string>
+    <string name="emoji">Search for your favourite Book &#128269;\n&#9757; &#9757; &#9757;</string>
+    <string name="loading">loading...</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_book_detail">BookDetail</string>
+    <string name="large_text" >FF</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_feedback">Send feedback</string>
+    <string name="title_send_feedback">Send feedback</string>
+
+    <string name="mail_feedback_email">ishrathemu008@gmail.com</string>
+    <string name="mail_feedback_subject">Feedback on your app</string>
+    <string name="mail_feedback_message">Hi,
+\n\nYour Feedback sample app rocks! I would like to give you some feedback:</string>
+
+    <string name="about">Pocket Library our University 3rd Year Project </string>
+    <string name="contact">Developed by:"\n"Ishrath Jahan Emu"\n"LU CSE"\n"email id:ishrathemu008@gmail.com"\n\n"Mansura begum"\n"LU CSE"\n"email id:mansurabegum@gmail.com\n\n"Sheik Hussain Md Mubin"\n"LU CSE"\n"email id:sheikhussainmdmubin@gmail.com</string>
+
+</resources>
