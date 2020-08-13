@@ -10,13 +10,13 @@ import androidx.cardview.widget.CardView;
 import leadinguniversity.bookapp.Ui.MainActivity_Ebook;
 
 public class MainActivity extends AppCompatActivity {
-    private CardView FindAndBuyBook, Ebook, About;
+    private CardView findbookinformaTion, Ebook, About;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        FindAndBuyBook = (CardView) findViewById(R.id.buyandfindbook);
+        findbookinformaTion = (CardView) findViewById(R.id.findbookinformation);
         Ebook = (CardView) findViewById(R.id.EbookButton);
         About = (CardView) findViewById(R.id.aboutapp);
 
@@ -29,12 +29,12 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //FindBook information activity open
-        FindAndBuyBook.setOnClickListener(new View.OnClickListener() {
+        findbookinformaTion.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(getApplicationContext(), BookBuyActivity.class);
+                Intent i = new Intent(getApplicationContext(), FindBookActivity.class);
                 startActivity(i);
             }
         });

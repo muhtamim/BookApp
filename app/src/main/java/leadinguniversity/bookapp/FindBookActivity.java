@@ -34,7 +34,7 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BookBuyActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<List<FindBook>> {
+public class FindBookActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<List<FindBook>> {
 
     private static final int BOOK_LOADER_ID = 1;
     private FindBookAdapter mAdapter;
@@ -120,7 +120,7 @@ public class BookBuyActivity extends AppCompatActivity implements LoaderManager.
                 search = search.replace(' ','+');
                 GOOGLE_API_REQUEST_URL = "https://www.googleapis.com/books/v1/volumes?q="+search+"&maxResults=40";
 
-                loaderManager.restartLoader(BOOK_LOADER_ID, null, BookBuyActivity.this);
+                loaderManager.restartLoader(BOOK_LOADER_ID, null, FindBookActivity.this);
             }
         });
 
